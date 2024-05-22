@@ -8,13 +8,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../assets/wolf.jpg" class="d-block" alt="woft" style="width: 1000px;height: 500px; margin-left: 9%; margin-top: 4%;">
+      <img src="../assets/wolf.jpg" class="d-block" alt="woft" style="width: 1250px;height: 600px; margin-left: 9%; margin-top: 4%;">
     </div>
     <div class="carousel-item active">
-      <img src="../assets/food8.png" class="d-block" alt="food" style="width: 1000px;height: 500px; margin-left: 9%; margin-top: 4%">
+      <img src="../assets/food8.png" class="d-block" alt="food" style="width: 1250px;height: 600px; margin-left: 9%; margin-top: 4%">
     </div>
     <div class="carousel-item active">
-      <img src="../assets/night.png" class="d-block" alt="night" style="width: 1000px;height: 500px; margin-left: 9%; margin-top: 4%">
+      <img src="../assets/night.png" class="d-block" alt="night" style="width: 1250px;height: 600px; margin-left: 9%; margin-top: 4%">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

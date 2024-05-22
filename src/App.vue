@@ -2,9 +2,9 @@
   <div>
     <nevigation-bar-vue></nevigation-bar-vue>
     <header-vue></header-vue>
-    <section class="container mt-4" style="margin-left: 95px;width: 84%;">
+    <section class="container mt-5" style="margin-left: 120px;width: 84%;">
         <h3>All products</h3>
-        <div class="row mt-3">
+        <div class="row mt-2">
           <card-base-vue v-for="i in 10" :key="i"></card-base-vue>
         </div>
     </section>
@@ -21,11 +21,6 @@ export default {
     NevigationBarVue,
     HeaderVue,
     CardBaseVue,
-  },
-  data() {
-    return {
-      message: 'Welcome to Your Vue.js App',
-    }
-  },
+  }
 }
 </script>
