@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <nevigation-bar-vue></nevigation-bar-vue>
+    <header-vue></header-vue>
+    <section class="container mt-4" style="margin-left: 95px;width: 84%;">
+        <h3>All products</h3>
+        <div class="row mt-3">
+          <card-base-vue v-for="i in 10" :key="i"></card-base-vue>
+        </div>
+    </section>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import NevigationBarVue from './components/NevigationBar.vue'
+import HeaderVue from './components/HeaderVue.vue'
+import CardBaseVue from './components/CardBase.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    NevigationBarVue,
+    HeaderVue,
+    CardBaseVue,
+  },
+  data() {
+    return {
+      message: 'Welcome to Your Vue.js App',
+    }
+  },
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
